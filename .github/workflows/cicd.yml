@@ -12,8 +12,8 @@ jobs:
     - name: executing remote ssh commands using ssh-key
       uses: appleboy/ssh-action@v0.1.10
       with:
-        host: ${{ secrets.host }}
-        username: ${{ secrets.Username }}
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
 #        key: ${{secrets.KEY}}
         script: |
@@ -23,80 +23,6 @@ jobs:
           systemctl reload nginx.service
             
           whoami
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
