@@ -14,8 +14,8 @@ jobs:
       with:
         host: ${{ secrets.host }}
         username: ${{ secrets.Username }}
-#        password: ${{ secrets.PASSWORD }}
-        key: ${{secrets.KEY}}
+        password: ${{ secrets.PASSWORD }}
+#        key: ${{secrets.KEY}}
         script: |
           cd /var/www/tasks_cicd/project_asca/backend
           git pull
