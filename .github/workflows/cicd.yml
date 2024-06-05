@@ -23,3 +23,16 @@ jobs:
           systemctl reload nginx.service
             
           whoami
+
+
+
+
+
+
+
+
+
+
+
+
+
